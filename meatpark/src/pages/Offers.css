@@ -1,0 +1,54 @@
+.offers-container {
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .offers-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .offer {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .offer-image {
+    width: 100px; /* Adjust image width as needed */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visual */
+  }
+  
+  .offer-content {
+    flex: 1;
+  }
+  
+  .offer-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .offer-content p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .offer {
+      flex-direction: column;
+    }
+  
+    .offer-image {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+  

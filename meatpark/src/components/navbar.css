@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #e7c6c6; /* Example background color */
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .nav-links {
+    font-size: xx-large;
+    margin-left: 100px;
+    align-items: left;
+    display: flex;
+    padding: 20px;
+   
+    list-style: none;
+    color: black;
+  }
+
+  
+  .nav-links li {
+    margin-right: 50px; /* Adjust margin between menu items */
+  }
+  
+  .shop{
+    align-items: right;
+    display: flex;
+    list-style: none;
+    font-style: italic;
+    font-size: xxx-large;
+    padding: 20px;
+  }
+  .shopping{
+    margin-left: 50px;
+    size: adjust 100px;
+    height: 100px;
+  }
+  .cart-icon {
+    width: 70px; /* Adjust width as needed */
+    height: 70px; /* Adjust height as needed */
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
